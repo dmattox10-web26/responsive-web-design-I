@@ -109,7 +109,7 @@ h1 {
 }
 
 .catch {
-	margin-top: 1rem;
+	margin-top: 5rem;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -131,7 +131,11 @@ h1 {
 	justify-content: space-evenly;
 }
 
+.row {
+    display: flex;
+}
 .twins {
+    display: flex;
 	width: 50%;
 	margin: 1em;
 	line-height: 16px;
@@ -139,19 +143,19 @@ h1 {
 }
 
 .triplets {
-	width: 33%;
-	padding: 1em;
-	float: left;
-	margin-bottom: 1rem;
-	line-height: 16px;
+    display: flex;
+    width: 33%;
+    margin: 1em;
+    line-height: 16px;
+    justify-content: space-evenly;
 }
 
 .quadruplets {
+    display: flex;
 	width: 25%;
-	padding: 1em;
-	float: left;
-	margin-bottom: 1rem;
-	line-height: 16px;
+	margin: 1rem;
+    line-height: 16px;
+    justify-content: space-evenly;
 }
 
 .bar {
@@ -184,7 +188,6 @@ h1 {
 }
 
 hr { 
-	display: block;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	margin-left: auto;
