@@ -77,16 +77,25 @@ header nav {
 
 nav {
   	display: flex;
-  	justify-content: space-between;
-	/*align-items: center;*/
 	margin: 1rem 0;  
 }
 
 .links {
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+}
+
+.nav-items {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
 	align-items: center;
+}
+
+.nav-logo {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .logo {
@@ -227,4 +236,12 @@ footer {
 
 .default li {
 	list-style-type: disc;
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 500px) {
+
 }
