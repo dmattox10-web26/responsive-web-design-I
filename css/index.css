@@ -246,6 +246,10 @@ footer {
 	list-style-type: disc;
 }
 
+.bottom {
+    margin: 1em;
+}
+
 @media (max-width: 800px) {
     nav {
         flex-direction: column;
@@ -274,9 +278,98 @@ footer {
         margin: 0 1em;
     }
 
-
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) { /*CHANGE ME TO 500!!!*/
+
+    section {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center; 
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    header {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .row {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .content {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .links {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        align-items: center; 
+
+    }
+
+    .nav-items div {
+        border-top: 1px solid gray;
+        width: 100%;
+        
+    }
+
+    .nav-items div a{
+        width: 100%;
+        display: flex;
+        padding: 1em 0;
+        align-items: center; 
+        justify-content: space-evenly;
+    }
+
+    .nav-items div:last-child {
+        border-bottom: 1px solid gray;
+    }
+
+    .twins {
+        width: 100%;
+    }
+
+    .twins div {
+        margin: 0;
+        padding: 0;
+        margin: 1em;
+    }
+
+    .triplets {
+        width: 100%;
+    }
+
+    .triplets div {
+        margin: 0;
+        padding: 0;
+        margin: 1em;
+    }
+
+    .bottom {
+        align-items: flex-start;
+    }
 
 }
