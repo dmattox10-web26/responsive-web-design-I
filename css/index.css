@@ -140,6 +140,14 @@ h1 {
 	justify-content: space-evenly;
 }
 
+.tagline-img {
+	width: 50%;
+	display: flex;
+	margin: 1em;
+	line-height: 16px;
+	justify-content: space-evenly;
+}
+
 .row {
     display: flex;
 }
@@ -199,8 +207,8 @@ h1 {
 hr { 
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 2em;
+	margin-right: 2em;
 	border-style: inset;
 	border-width: 1px;
   } 
@@ -239,6 +247,33 @@ footer {
 }
 
 @media (max-width: 800px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .links {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .nav-logo {
+        width: 100%;
+        margin: 1em 0;
+        justify-content: space-evenly;
+    }
+
+    .tagline {
+        width: 100%;
+    }
+
+    .tagline-img {
+        display: none;
+    }
+
+    .bar {
+        margin: 0 1em;
+    }
+
 
 }
 
